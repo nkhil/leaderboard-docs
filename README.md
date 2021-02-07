@@ -10,7 +10,7 @@ In order to generate valid client credentials, visit [https://leaderboardapi.com
 
 {% api-method method="get" host="https://api.leaderboardapi.com" path="/ping" %}
 {% api-method-summary %}
-GET API readiness
+Readiness
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -46,7 +46,7 @@ GET API readiness
 
 {% api-method method="get" host="https://api.leaderboardapi.com" path="/v1/token" %}
 {% api-method-summary %}
-Get Token
+Token
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -96,7 +96,7 @@ Request lacks valid authentication credentials
 
 {% api-method method="post" host="" path="/v1/team" %}
 {% api-method-summary %}
-POST team
+Team
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -145,7 +145,7 @@ Bearer token JWT
 
 {% api-method method="put" host="" path="/v1/team/:id" %}
 {% api-method-summary %}
-PUT team
+Team
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -189,7 +189,7 @@ team details you'd like to update
 
 {% api-method method="delete" host="" path="/v1/team/:id" %}
 {% api-method-summary %}
-DELETE team
+Team
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -239,7 +239,7 @@ no response
 
 {% api-method method="get" host="" path="/v1/team/:id" %}
 {% api-method-summary %}
-GET team
+Team
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -282,7 +282,7 @@ Bearer token
 
 {% api-method method="post" host="" path="/v1/leaderboard" %}
 {% api-method-summary %}
-POST leaderboard
+Leaderboard
 {% endapi-method-summary %}
 
 {% api-method-description %}
