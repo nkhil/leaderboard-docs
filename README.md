@@ -12,7 +12,7 @@ In order to generate valid client credentials, visit [https://leaderboardapi.com
 
 {% api-method method="get" host="https://api.leaderboardapi.com" path="/ping" %}
 {% api-method-summary %}
-GET api readiness
+GET API readiness
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -255,6 +255,49 @@ teamId
 {
   "teamName": "A Team",
   "id": "001456732910846354678",
+  "createdAt": "",
+  "modifiedAt": ""
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="" path="/v1/leaderboard" %}
+{% api-method-summary %}
+POST leaderboard
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Create a new leaderboard
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer token
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="teams" type="array" required=true %}
+teams to add to the leaderboard
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=201 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+  "name": "leaderboard name",
+  "id": "123789345678",
   "createdAt": "",
   "modifiedAt": ""
 }
