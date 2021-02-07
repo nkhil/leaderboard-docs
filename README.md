@@ -1,10 +1,8 @@
 ---
-description: Here's a reference for the Leaderboard API
+description: 'Leaderboard API lets you manage teams, scores and leaderboards'
 ---
 
 # Leaderboard API docs
-
-**←**👈 ****[**Back to Leaderboard API website**](www.google.com) ****
 
 ##  Client credentials
 
@@ -29,7 +27,7 @@ GET API readiness
 {% endapi-method-response-example-description %}
 
 ```
-{ "status": "OK" }
+{ "message": "OK" }
 ```
 {% endapi-method-response-example %}
 
@@ -39,7 +37,7 @@ GET API readiness
 {% endapi-method-response-example-description %}
 
 ```
-{ "status": "NOT OK" }
+
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
